@@ -308,9 +308,6 @@ function install_dependencies() {
 	cp -fp "po2lmo" "/usr/bin/po2lmo"
 	popd
 
-	curl -fL "https://build-scripts.immortalwrt.org/modify-firmware.sh" -o "/usr/bin/modify-firmware"
-	chmod 0755 "/usr/bin/modify-firmware"
-
 	popd
 	rm -rf "$TMP_DIR"
 
